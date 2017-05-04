@@ -19,8 +19,9 @@ li {
 }
 
 .thumbnail {
-	width: 300px;
-	height:300px;
+	width: 230px;
+	height:230px;
 	margin-top: 10px;
 	margin-right: 30px;
+	margin:auto;
 }
