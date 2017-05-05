@@ -1,27 +1,13 @@
 li {
-  padding: 5px;
-  margin: 5px;
+  padding: 10px;
+  margin: 10px;
   background: #faebd7;
-}
-
-.label {
-  font-weight: bold;
-}
-
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-}
-
-.form-group {
-  margin-bottom: 5px;
+  list-style-type: none;
 }
 
 .thumbnail {
 	width: 200px;
 	height:200px;
-	margin-top: 10px;
-	margin-right: 30px;
 	margin:auto;
 }
 
@@ -49,10 +35,23 @@ h1{
 	clear:both;
 }
 
-.button{
-	float: right;
-}
-
 .burgerName{
 	float: left;
 }
+.button{
+	float: right;
+	clear:both;
+}
+
+button:hover {
+	background-color: grey;
+	color: white;
+}
+
+.submit{
+	background-color:blue;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+}
+

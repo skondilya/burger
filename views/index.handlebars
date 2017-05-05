@@ -8,9 +8,9 @@
   <ul class="burgerName">
     {{#each burgers}}
       {{#unless this.devoured}}
+      
         <li>
-          {{this.burger_name}}
-
+          {{this.id}}.{{this.burger_name}}
           <form class="button" action="/{{this.id}}?_method=PUT" method="POST">
             <input type="hidden" name="devoured" value="true">
             <button type="submit">Devour it!</button>
@@ -27,8 +27,7 @@
     {{#each burgers}}
       {{#if this.devoured}}
         <li>
-          {{this.burger_name}}
-
+          {{this.id}}.{{this.burger_name}}
         </li>
       {{/if}}
     {{/each}}
@@ -39,8 +38,10 @@
   <form class="create-update-form" action="/" method="POST">
     <textarea type="text" name="burger_name"></textarea>
 
-    <button type="submit">Submit</button>
-    <p>Enter a burger you want to eat Click the "Submit" button</p>
+    <div>
+      <button class="submit" type="submit">Submit</button>
+      <p>Enter a burger you want to eat Click the "Submit" button</p>
+    </div>
   </form>
 </div> 
 
