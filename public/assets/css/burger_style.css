@@ -11,7 +11,6 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
 }
 
 .form-group {
@@ -19,9 +18,41 @@ li {
 }
 
 .thumbnail {
-	width: 230px;
-	height:230px;
+	width: 200px;
+	height:200px;
 	margin-top: 10px;
 	margin-right: 30px;
 	margin:auto;
+}
+
+body {
+	color:black;
+	max-width: 960px;
+	margin:auto;
+	background: orange;
+	text-align: center;
+}
+
+h1{
+	color: red;
+}
+
+.noteatten {
+	float: left;
+}
+
+.eatten{
+	float: right;
+}
+
+.enter{
+	clear:both;
+}
+
+.button{
+	float: right;
+}
+
+.burgerName{
+	float: left;
 }
